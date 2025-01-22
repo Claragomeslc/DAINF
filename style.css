@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    /*display: block;*/
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0%;
+    text-align: center;
+}
+.teste{
+    color: #333;
+    font-family: 'Raleway';
+}
+
+.cursos{
+    color: rgb(119,119,119);
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 12.25px;
+    font-weight: 400;
+    height: 124.875;
+    line-height: 20.825px;
+    margin-block-end: 13.125px;
+    margin-block-start: 0px;
+    margin-bottom: 13.125px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    width: 240px;
+}
+
+.main {
+    height: 80vh;
+    background-color: rgb(68, 47, 47);
+    }
+
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    box-shadow: 2px 2px 4px 1px #333333c9;
+      
+    }
+
+.data{
+    color: rgba(168, 168, 168, 0.527);
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Roboto';
+}
+.subtitle {
+    box-sizing: border-box;
+    color: rgb(170, 170, 170);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.title{
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    height: 36px;
+    margin-top: 5px;
+    line-height: 30px;
+    position: relative;
+}
+
+#noticias{
+    align-items: center;
+    /*text-align: center;*/
+    color: rgb(119,119,119);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20.825px;
+    
+    /*margin-left: 790px;*/
+}
+
+.paragrafo{ 
+    box-sizing: border-box;
+    color: rgb(119,119,119);
+   /* display: block;
+    font-weight: 400;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 365px;
+    word-break: break-word;
+    /*box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 83.25px;
+    /*line-height: 20.825px;*/
+    width: 365px;
+
+}
+
+.navigation{
+    display: flex;
+}
+    
+.navigation li{
+    margin: 20px;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigation li a{
+    text-decoration:none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600px;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+
+.navigation a:hover{
+    color: orange;
+}
+    /*margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    width: 70px;
+    height: 70px;*/
+
+.img{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.image {
+    aspect-ratio: auto 640/350;
+    height: 131.25px;
+    line-height: 20.825px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    width: 240px;
+}
+
+.container{
+
+}
+
+
+.rodape {
+    box-sizing: border-box;
+    background-color: #333; /* Cor de fundo escura para o rodapé */
+    color: white; /* Cor do texto */
+    text-align: center; /*texto alinhado no centro */
+    position: relative; /* Posição absoluta */
+    width: 100%; /* Largura do Rodapé */
+    height: 150px; /*Altura do Rodapé*/
+    padding: 20px; /*Preenchimento do Rodapé*/
+    bottom: 0%; /* Não tem efeito caso o elemento não esteja posicionado, exemplo "position: absolute"*/
+    left: 0%; /*texto a esquerda*/
+    font-family: 'Raleway'; /*Fonte aplicada no texto dentro do rodapé*/
+    margin-top: 50px;
+
+}
